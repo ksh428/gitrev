@@ -22,5 +22,5 @@
 19. git merge br_name : merges the br_name branch to the active branch (incase of a divergent merge a commit is made)
 20.git commit --amend:alter the most recent commit
 21.git revert SHA: undo changes in a particular commit
-22.
+22.git checkout <sha_of_commit>: go to a sp. commit //all files are chnged accordingly
 
