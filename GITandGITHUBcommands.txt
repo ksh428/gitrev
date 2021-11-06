@@ -1,0 +1,26 @@
+//GIT commands
+
+1. git init : create empty git epo
+2. git clone <url>: clone exsisting repo to pc
+3.git status: use everytime
+4. git log: info about the exsisting commits
+6. git show SHA: show info about a sp. commit whose id is given
+7.git log --oneline   : shows the commit in single line
+8.git log --stat :show the files that have been changed in the commit and no of lines changes
+9.git log -p : show the changes in the files
+10.git add file_name1 file_name2 ...  or use git add . : add files from working directory to staging directory
+11.git commit -m "commit msg"
+12.git diff: shows the difference between changes that have been made but not commited yet
+13..gitignore: write the name of all the files that u dont want to track
+14.git tag -a 'tag_name': add tag to sp. commits | also git tag lists out all the tags
+15.git branch :lists all the branches | git branch branch_name: create a new branch
+16.git checkout branch_name: switch b/w diff branches and tags
+17.git merge :
+18. git tag -d 'tag_name':delete the flag | git tag -a 'tag_name' SHA :add tag to a sp commit
+17. git branch -d branch_name: delete a sp. branch
+18.git checkout -b branch_name:checkout and switch branch at once
+19. git merge br_name : merges the br_name branch to the active branch (incase of a divergent merge a commit is made)
+20.git commit --amend:alter the most recent commit
+21.git revert SHA: undo changes in a particular commit
+22.
+
