@@ -16,8 +16,13 @@ void initcode() {
 #endif // ONLINE_JUDGE
 }
 
+int f(int n){
+/*
+some code here
+*/}
+
 void solve() {
-    cout<<"ok i am here";
+  cut<<f(23)<<endl;
 
 
 }
