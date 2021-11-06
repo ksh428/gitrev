@@ -35,8 +35,6 @@ int f1(int n){
 void solve() {
   cout<<f(23)<<endl;
   cout<<f1(20)<<endl;
-
-
 }
 
 
@@ -45,10 +43,6 @@ int32_t main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
-	int t;
-	cin >> t;
-	while (t--) {
-		solve();
-	}
+	solve();
 	return 0;
 }
