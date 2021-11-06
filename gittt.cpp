@@ -15,6 +15,7 @@ void initcode() {
 
 #endif // ONLINE_JUDGE
 }
+//new fact
 
 int f(int n){
     int f[n+1];
