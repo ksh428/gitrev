@@ -25,10 +25,16 @@ int f(int n){
     }
     return f[n];
 }
+//other way
+int f1(int n){
+    if(n==0) return 1;
+    return n*f(n-1);
+}
 
 
 void solve() {
   cout<<f(23)<<endl;
+  cout<<f1(20)<<endl;
 
 
 }
