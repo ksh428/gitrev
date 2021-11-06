@@ -17,12 +17,13 @@ void initcode() {
 }
 
 int f(int n){
-/*
-some code here
-*/}
+    if(n==0) return 1;
+    return n*f(n-1);
+}
+
 
 void solve() {
-  cut<<f(23)<<endl;
+  cout<<f(23)<<endl;
 
 
 }
